@@ -1,1 +1,2 @@
+# Force elevated privileges
 [ $(id -u) = 0 ] || { sudo "$0" "$@"; exit $?; }
